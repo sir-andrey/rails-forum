@@ -1,0 +1,59 @@
+# Additional translations at https://github.com/plataformatec/devise/wiki/I18n
+
+id:
+  devise:
+    confirmations:
+      confirmed: 'Akun anda telah berhasil dikonfirmasi. Anda telah login.'
+      send_instructions: 'Anda akan menerima e-mail berisi instruksi untuk melakukan konfirmasi akun dalam beberapa menit lagi.'
+      send_paranoid_instructions: "Jika email anda benar-benar terdaftar, anda akan menerima email untuk mengkonfirmasi akun anda dalam beberapa menit lagi."
+    failure:
+      already_authenticated: "Anda telah login."
+      inactive: 'Akun anda belum diaktifkan, cek email konfirmasi pendaftaran dari kami.'
+      invalid: 'Email atau password yang anda masukkan salah.'
+      locked: 'Akun anda terkunci.'
+      last_attempt: "Tinggal tersisa satu kali kesempatan untuk login sebelum akun anda kita blokir sementara."
+      not_found_in_database: "Email atau password salah."
+      timeout: 'Sesi anda telah habis, silahkan login lagi untuk melanjutkan.'
+      unauthenticated: 'Anda harus mendaftar atau sign in sebelum melanjutkan .'
+      unconfirmed: 'Anda harus melakukan konfirmasi sebelum melanjutkan.'
+    mailer:
+      confirmation_instructions:
+        subject: 'Instruksi untuk melakukan konfirmasi'
+      reset_password_instructions:
+        subject: 'Instruksi untuk mengatur ulang password'
+      unlock_instructions:
+        subject: 'Instruksi untuk membuka kembali akun anda'
+    omniauth_callbacks:
+      failure: "Tidak dapat login dari %{kind} karena \"%{reason}\"."
+      success: "Berhasil login dari akun %{kind}."
+    passwords:
+      no_token: "Anda hanya bisa mengakses halaman ini dari link di email reset password. Jika memang anda mengklik link reset password dari email, pastikan menggunakan url yg kita kirimkan secara penuh."
+      send_instructions: 'Anda akan menerima e-mail berisi instruksi untuk melakukan reset password beberapa menit lagi.'
+      send_paranoid_instructions: "Jika email anda benar-benar terdaftar, anda akan menerima email untuk mengkonfirmasi akun anda dalam beberapa menit lagi."
+      updated: 'Password anda telah berhasil diubah. Anda telah login.'
+      updated_not_active: "Password anda telah berhasil diubah. Silahkan login."
+    registrations:
+      destroyed: 'Selamat tinggal, Akun anda telah dihapus. Kami harap anda bisa bergabung lagi segera.'
+      signed_up: 'Selamat datang, pendaftaran berhasil.'
+      signed_up_but_inactive: "Anda telah berhasil mendaftar. Tapi belum bisa login karena akun belum aktif. Cek email konfirmasi pendaftaran dari kami."
+      signed_up_but_locked: "Anda telah berhasil mendaftar. Tapi belum bisa login karena akun masih diblokir. Cek email pemblokiran dari kami."
+      signed_up_but_unconfirmed: "Email dengan link untuk mengkonfirmasi akun telah dikirim ke email anda. Mohon klik link tersebut untuk mengatifkan akun anda."
+      update_needs_confirmation: "Update akun berhasil, tapi kita harus mengkonfirmasi email yg baru ini. Mohon klik link konfirmasi dalam email untuk menyelesaikan konfirmasi email yg baru."
+      updated: 'Akun anda telah berhasil diperbaharui.'
+    sessions:
+      signed_in: 'Login berhasil.'
+      signed_out: 'Logout berhasil.'
+    unlocks:
+      send_instructions: 'Anda akan menerima e-mail berisi instruksi untuk membuka kembali akun anda dalam beberapa menit lagi.'
+      send_paranoid_instructions: "Jika email anda benar-benar terdaftar, anda akan menerima email untuk mengkonfirmasi akun anda dalam beberapa menit lagi."
+      unlocked: 'Akun anda telah berhasil dibuka kembali. Silahkan login terlebih dahulu.'
+  errors:
+    messages:
+      already_confirmed: "sudah di konfirmasi, coba langsung login saja"
+      confirmation_period_expired: "harus dikonfirmasi dalam %{period}, mohon diulangi lagi"
+      expired: "sudah kadaluarsa, mohon diulangi lagi"
+      not_found: "tidak ditemukan"
+      not_locked: "tidak dikunci"
+      not_saved:
+        one: "Ada 1 error sehingga data %{resource} tidak bisa disimpan:"
+        other: "Ada %{count} error sehingga data %{resource} tidak bisa disimpan:"
